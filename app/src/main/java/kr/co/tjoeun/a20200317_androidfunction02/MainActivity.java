@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // 앱 광고 링크
-//                Uri uri = Uri.parse();
-//                Intent intent = new Intent(Intent.ACTION_, uri);
-//                startActivity(intent);
+                Uri uri = Uri.parse("market://details?id=com.kakao.talk");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
 
