@@ -11,6 +11,12 @@
         tools:context=".MainActivity">
 
         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="전화번호 입력"/>
+
+        <Button
             android:id="@+id/dialBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

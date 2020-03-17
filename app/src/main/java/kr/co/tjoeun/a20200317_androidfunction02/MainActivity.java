@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 //                => 전화걸기 화면
 
 //                어느 화면으로 갈지 => 안드로이드가 요구하는 양식으로 작성 : Uri
+
+//                응용문제 : EditText에 입력한 번호로 전화걸도록
                 Uri uri = Uri.parse("tel:01022612183");
                 Intent intent = new Intent(Intent.ACTION_DIAL, uri);
                 startActivity(intent);
