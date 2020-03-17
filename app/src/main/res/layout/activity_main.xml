@@ -10,7 +10,8 @@
         android:padding="30dp"
         tools:context=".MainActivity">
 
-        <Button
+        <EditText
+            android:id="@+id/phoneNumEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
