@@ -35,5 +35,23 @@
             android:layout_height="wrap_content"
             android:text="문자보내기"/>
 
+        <Button
+            android:id="@+id/webLinkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="네이버로 이동하기"/>
+
+        <Button
+            android:id="@+id/playStoresBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="앱 광고링크"/>
+
+        <Button
+            android:id="@+id/googleMapBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="구글지도 띄워보기"/>
+
     </LinearLayout>
 </layout>

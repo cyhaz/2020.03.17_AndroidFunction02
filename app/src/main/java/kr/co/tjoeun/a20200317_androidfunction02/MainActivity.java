@@ -62,5 +62,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        binding.webLinkBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 네이버로 이동하기
+                Uri uri = Uri.parse("http://www.naver.com");  // 방문할 사이트 주소
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+        binding.playStoresBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 앱 광고 링크
+//                Uri uri = Uri.parse();
+//                Intent intent = new Intent(Intent.ACTION_, uri);
+//                startActivity(intent);
+            }
+        });
+
+        binding.googleMapBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 구글 지도 띄워보기
+            }
+        });
     }
 }
